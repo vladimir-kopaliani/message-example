@@ -36,7 +36,7 @@ getMessages(
 }
 ```
 
-3. On sepate tab paste and launch:
+3. On separate tab paste and launch:
 
 ```graphql
 subscription {
