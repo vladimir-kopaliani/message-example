@@ -1,0 +1,16 @@
+schema: "../schema/*.graphql"
+
+model:
+  filename: "../../models/model_gen.go"
+  package: models
+
+resolver:
+  layout: follow-schema
+  dir: .
+  package: resolver
+
+models:
+  DateTime:
+    model: "github.com/vladimir-kopaliani/message-example/internal/models.DateTime"
+  Date:
+    model: "github.com/vladimir-kopaliani/message-example/internal/models.Date"

@@ -1,0 +1,9 @@
+input GetMessagesInput {
+  startDate:  DateTime!
+  endDate:    DateTime!
+}
+
+input WriteMessageInput {
+  id:   ID!
+  text: String!
+}

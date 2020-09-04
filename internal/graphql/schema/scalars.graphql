@@ -1,0 +1,3 @@
+"""Has format: 2006-01-02"""
+scalar Date
+scalar DateTime
